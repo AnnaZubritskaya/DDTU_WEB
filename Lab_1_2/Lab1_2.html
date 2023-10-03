@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                
+                <div class="minirow">
+                    <div class="minicol" id="square-1"></div>
+                    <div class="minicol" id="square-2"></div>
+                    <div class="minicol" id="square-3"></div>
+                </div>
+
+                <div class="minirow">
+                    <div class="minicol" id="square-4"></div>
+                    <div class="minicol" id="square-5"></div>
+                    <div class="minicol" id="square-6"></div>
+                </div>
+
+                <div class="minirow">
+                    <div class="minicol" id="square-7"></div>
+                    <div class="minicol" id="square-8"></div>
+                    <div class="minicol" id="square-9"></div>
+                </div>
+
+            </div>
+            <div class="col" style="display: flex; justify-content: center; align-items: center;">
+                <button id="start-button" class="startbutton">Почати гру</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col" style="height: 70px;"> <h2 style="font-family: sans-serif;">Результати:</h2></div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="row" >
+                    <div class="roundrow" id="1-border">
+                    <img src="1-player.png" style="max-width: 80%; max-height: 80%;">
+                    </div>
+                </div>
+                <div class="row">
+                    <ul id="1-score" style="font-family: sans-serif; font-weight: bolder;">
+                        <li>Результат 1</li>
+                        <li>Результат 2</li>
+                        <li>Результат 3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="roundrow" id="2-border">
+                    <img src="2-player.png" style="max-width: 80%; max-height: 80%;">
+                </div>
+                </div>
+                <div class="row">
+                    <ul id="2-score" style="font-family: sans-serif; font-weight: bolder;">
+                        <li>Результат 1</li>
+                        <li>Результат 2</li>
+                        <li>Результат 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
